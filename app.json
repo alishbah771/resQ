@@ -5,7 +5,6 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-
     "ios": {
       "supportsTablet": true
     },
@@ -19,7 +18,13 @@
       "bundler": "metro"
     },
     "plugins": [
-      "expo-status-bar"
-    ]
+      "expo-status-bar",
+      "expo-font",
+      "expo-splash-screen"
+    ],
+    "extra": {
+      "googleMapsApiKey": "",
+      "geminiApiKey": ""
+    }
   }
 }
